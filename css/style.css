@@ -1,0 +1,135 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #222;
+    font-family: Arial, sans-serif;
+    color: white;
+    overflow: hidden;
+}
+
+#hud {
+    position: absolute;
+    top: 5%;           /* fica um pouco abaixo do topo */
+    left: 50%;
+    transform: translateX(-50%);
+    display: none;
+    gap: 4vw;          /* espaço proporcional à tela */
+    font-size: 2.5vw;  /* tamanho da fonte proporcional */
+    z-index: 10;
+}
+
+#points, #deaths {
+    padding: 0.5vw 1vw;  /* padding proporcional */
+    font-weight: bold;
+    border-radius: 1vw;
+}
+
+#points {
+    color: #00ff7f;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 5px 5px 50px 21px  #00ff7f;
+}
+
+#deaths {
+    color: #ff4040;
+    background: rgba(0, 0, 0, 0.8);
+    box-shadow: 5px 5px 50px 21px  #ff4040;
+}
+
+@keyframes pulse {
+    0% {transform: scale(1);}
+    50% {transform: scale(1.2);}
+    100% {transform: scale(1);}
+}
+
+.pulse {
+    animation: pulse 0.3s ease;
+}
+
+#game-container {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+canvas {
+    border: 3px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
+}
+
+#start-screen, #game-over-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #222;
+}
+
+#start-screen h1, #game-over-screen h1 {
+    font-size: 12rem;
+    margin-bottom: 1rem;
+}
+
+#start-screen h1 {
+    color: #00ff7f;
+}
+
+#start-screen img {
+    width: 25rem;
+    height: 20rem;
+    align-items: center;
+}
+
+#game-over-screen h1 {
+    color:#ff4040;
+}
+
+#start-screen p, #game-over-screen p {
+    font-size: 5rem;
+    margin-bottom: 3rem;
+    padding: 0 1rem;
+}
+
+#start-button, #restart-button {
+    border: none;
+    padding: 2rem;
+    font-size: 5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s;
+    margin: 10px;
+}
+
+#start-button {
+    background: #00ff7f;
+    color: #222;
+}
+
+#start-button:hover {
+    background: #00cc66;
+}
+
+#restart-button {
+    background: #ff4040;
+    color: #fff;
+}
+
+#restart-button:hover {
+    background: #cc0000;
+}
+
+#game-over-screen {
+    text-align: center;
+    display: none;
+}
+
