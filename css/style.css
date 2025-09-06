@@ -84,8 +84,8 @@ canvas {
 }
 
 #start-screen img {
-    width: 25rem;
-    height: 20rem;
+    width: 15rem;
+    height: 10rem;
     align-items: center;
 }
 
@@ -102,7 +102,7 @@ canvas {
 #start-button, #restart-button {
     border: none;
     padding: 2rem;
-    font-size: 5rem;
+    font-size: 1rem;
     font-weight: bold;
     border-radius: 10px;
     cursor: pointer;
