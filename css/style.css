@@ -75,7 +75,7 @@ canvas {
 }
 
 #start-screen h1, #game-over-screen h1 {
-    font-size: 12rem;
+    font-size: 3rem;
     margin-bottom: 1rem;
 }
 
@@ -94,7 +94,7 @@ canvas {
 }
 
 #start-screen p, #game-over-screen p {
-    font-size: 5rem;
+    font-size: 1.2rem;
     margin-bottom: 3rem;
     padding: 0 1rem;
 }
