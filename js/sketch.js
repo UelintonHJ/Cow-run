@@ -19,7 +19,7 @@ function setup() {
 
 function windowResized() {
   if (canvasRef && gameStarted) {
-    resizeCanvas(windowWidth * 0.9, windowHeight * 0.8);
+    resizeCanvas(windowWidth * 0.4, windowHeight * 0.6);
   }
 }
 
