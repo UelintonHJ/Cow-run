@@ -60,9 +60,23 @@ canvas {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
 }
 
-#start-screen, #game-over-screen {
+#start-screen {
     position: fixed;
     top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #222;
+}
+
+#game-over-screen {
+    position: fixed;
+    top: 30%;
     left: 0;
     width: 100vw;
     height: 100vh;
