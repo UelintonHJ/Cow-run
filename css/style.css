@@ -95,7 +95,7 @@ canvas {
 
 #start-screen p, #game-over-screen p {
     font-size: 1.2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     padding: 0 1rem;
 }
 
