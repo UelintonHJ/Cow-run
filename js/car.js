@@ -18,7 +18,7 @@ function setupCars() {
   for (let i = 0; i < numberOfCars; i++) {
     xCars[i] = width + random(50, 400);
     yCars[i] = laneSpacing * (i + 1) + verticalOffset;
-    speedCars[i] = -random(10.0, 15.0);
+    speedCars[i] = -random(5.0, 10.0);
  }
 } 
 
@@ -39,7 +39,7 @@ function returnCarStartingPosition(){
   for(let i = 0; i < yCars.length; i++){
     if(xCars[i] < -carLenght) {
       xCars[i] = width + random(50, 400);
-      speedCars[i] = -random(10.0, 15.0);
+      speedCars[i] = -random(5.0, 10.0);
     }
    }
   }
