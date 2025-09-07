@@ -84,8 +84,8 @@ canvas {
 }
 
 #start-screen img {
-    width: 15rem;
-    height: 10rem;
+    width: 8rem;
+    height: 6rem;
     align-items: center;
 }
 
@@ -101,9 +101,9 @@ canvas {
 
 #start-button, #restart-button {
     border: none;
-    padding: 2rem;
+    padding: 1rem;
     font-size: 1rem;
-    font-weight: bold;
+    font-weight: 600;
     border-radius: 10px;
     cursor: pointer;
     transition: 0.2s;
@@ -117,6 +117,8 @@ canvas {
 
 #start-button:hover {
     background: #00cc66;
+    color: #fff;
+    box-shadow: 0px 0px 20px #00ff7f;
 }
 
 #restart-button {
