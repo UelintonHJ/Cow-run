@@ -27,13 +27,13 @@ body {
 #points {
     color: #00ff7f;
     background: rgba(0, 0, 0, 0.8);
-    box-shadow: 5px 5px 50px 21px  #00ff7f;
+    box-shadow: 1px 1px 25px #00ff7f;
 }
 
 #deaths {
     color: #ff4040;
     background: rgba(0, 0, 0, 0.8);
-    box-shadow: 5px 5px 50px 21px  #ff4040;
+    box-shadow: 1px 1px 25px #ff4040;
 }
 
 @keyframes pulse {
