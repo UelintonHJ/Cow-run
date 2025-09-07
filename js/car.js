@@ -13,7 +13,7 @@ function setupCars() {
   let numberOfCars = 6;
   let laneSpacing = height / (numberOfCars +1);
 
-  let verticalOffset = -80;
+  let verticalOffset = -20;
 
   for (let i = 0; i < numberOfCars; i++) {
     xCars[i] = width + random(50, 400);
