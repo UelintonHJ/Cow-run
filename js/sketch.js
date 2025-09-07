@@ -58,6 +58,7 @@ function draw() {
 
 function gameOver() {
   noLoop();
+  trackSound.stop();
   gameStarted = false;
   document.getElementById('hud').style.display = 'none';
   document.getElementById('game-over-screen').style.display = 'block';
@@ -75,5 +76,6 @@ function resetGame() {
   document.getElementById("game-container").style.display = "flex";
 
   gameStarted = true;
+  trackSound.loop();
   loop();
 }
