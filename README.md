@@ -17,11 +17,8 @@ Aqui, você controla uma vaca destemida que tenta atravessar uma rodovia movimen
 **Objeivos**: atravessar a rua sem ser churrascado!
 
 **Controles**: 
-
 ⬆️ **Seta pra cima**: move a vaca para frente;
-
 ⬇️ **Seta para baixo**: move a vaca para trás.
-
 
 🟢 A cada travessia bem-sucedida, você **ganha pontos**. 
 
