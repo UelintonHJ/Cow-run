@@ -21,7 +21,9 @@ Aqui, você controla uma vaca destemida que tenta atravessar uma rodovia movimen
 ⬇️ **Seta para baixo**: move a vaca para trás.
 
 🟢 A cada travessia bem-sucedida, você **ganha pontos**. 
+
 ❌ A cada colisão, você perde uma vida.
+
 💀 Depois de 5 colisões... **Game Over!**
 
 ---
